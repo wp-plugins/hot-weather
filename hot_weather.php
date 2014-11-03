@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: Hot Weather Widget
- * Plugin URI: http://www.hotjoomlatemplates.com/free-wordpress-plugins/206-wordpress-weather-plugin
- * Description: Hot  Weather widget helps you to inform your visitors about weather conditions for the selected city! Just enter your ZIP code and select simple mode or 3D mode and you're done! You can also select units (Fahrenheit or Celsius) depending of your preference.
- * Version:1.0
+ * Plugin Name: Hot Weather
+ * Plugin URI: http://hot-themes.com/wordpress/plugins/weather/
+ * Description: Hot Weather widget helps you to inform your visitors about weather conditions for the selected city! Just enter your ZIP code and select simple mode or 3D mode and you're done! You can also select units (Fahrenheit or Celsius) depending of your preference.
+ * Version: 1.1
  * Author: HotThemes
- * Author URI: http://www.hotjoomlatemplates.com
+ * Author URI: http://hot-themes.com/
  *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -20,7 +20,7 @@ add_action( 'widgets_init', 'hot_weather_load_widgets' );
 add_action('admin_init', 'hot_weather_textdomain');
 /**
  * Register our widget.
- * 'HotEffectsRotator' is the widget class used below.
+ * 'HotWeather' is the widget class used below.
  *
  * @since 0.1
  */
