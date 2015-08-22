@@ -3,7 +3,7 @@ Contributors: HotThemes
 Donate link: http://hot-themes.com/wordpress/plugins/weather/
 Tags: weather, widget
 Requires at least: 3.0
-Tested up to: 4.1
+Tested up to: 4.3
 Stable tag: 1.0
 
 Hot Weather by HotThemes is a weather forecast widget for WordPress.
