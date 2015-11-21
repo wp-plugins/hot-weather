@@ -56,7 +56,7 @@ class Weather extends WP_Widget {
 		$control_ops = array(  'id_base' => 'hot-weather' );
 
 		/* Create the widget. */
-		$this->WP_Widget( 'hot-weather', __('Hot Weather', 'hot_weather'), $widget_ops, $control_ops );
+		parent::__construct( 'hot-weather', __('Hot Weather', 'hot_weather'), $widget_ops, $control_ops );
 		
 		add_action('wp_print_styles', array( $this, 'HotWeather_styles'),12);
 		add_action('admin_init', array( $this,'admin_utils'));
